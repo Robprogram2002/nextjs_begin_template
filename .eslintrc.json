@@ -15,7 +15,7 @@
   "plugins": ["react", "@typescript-eslint", "react-hooks", "import"],
   "settings": {
     "react": {
-      "version": "latest"
+      "version": "detect"
     },
     // "import/extensions": [".js", ".mjs", ".jsx", ".js", ".jsx", ".ts", ".tsx"],
     "import/resolver": {

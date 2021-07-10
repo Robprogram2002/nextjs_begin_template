@@ -28,7 +28,7 @@ export default function Register() {
   };
 
   return (
-    <div className="flex">
+    <div className="flex bg-white">
       <Head>
         <title>Login</title>
       </Head>
@@ -71,7 +71,9 @@ export default function Register() {
           <small>
             New to Readit?
             <Link href="/register">
-              <span className="ml-1 text-blue-500 uppercase">Sign Up</span>
+              <span className="ml-1 text-blue-500 uppercase cursor-pointer">
+                Sign Up
+              </span>
             </Link>
           </small>
         </div>

@@ -36,7 +36,7 @@ export default function Register() {
   };
 
   return (
-    <div className="flex">
+    <div className="flex bg-white">
       <Head>
         <title>Register</title>
       </Head>
@@ -102,7 +102,9 @@ export default function Register() {
           <small>
             Already a readitor?
             <Link href="/login">
-              <span className="ml-1 text-blue-500 uppercase ">Log In</span>
+              <span className="ml-1 text-blue-500 uppercase cursor-pointer">
+                Log In
+              </span>
             </Link>
           </small>
         </div>
